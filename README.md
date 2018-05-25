@@ -1,5 +1,5 @@
 ### Android 微信支付宝支付封装
->使用流程
+>使用流程 复制pay包下的代码到自己工程中
 
 ###1. 在WeixinShare里面填写自己的appid
 ###2. 从后台请求支付信息
@@ -11,9 +11,9 @@
 	a.创建支付对象
 		mAliPayEntry = AliPayEntry.getInstance(); 
 	
-	b.    // 后台返回的支付信息 String info;
+	b.    // 后台返回的支付信息 String info; 
         mAliPayEntry.setModel("info");
-        mAliPayEntry.registerListener(this);
+        mAliPayEntry.registerListener(this); 
         mAliPayEntry.setActivity(this);
         mAliPayEntry.pay();
 

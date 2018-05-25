@@ -5,6 +5,9 @@
 ####2. 从后台请求支付信息
 ####3. 微信需要复制wxapi包下的WXPayEntryActivity(带包复制)
 ####4. 掉起支付宝或微信支付(微信同理)
+
+
+
 	a.创建支付对象
 		mAliPayEntry = AliPayEntry.getInstance();
 	
